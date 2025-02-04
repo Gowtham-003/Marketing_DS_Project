@@ -4,12 +4,12 @@ The marketing team at bank wanted to launch a targeted ad marketing campaign by 
 into at least three distinctive groups.
 
 Learnings :
-1. Understand how to leverage the power of data science to perform market segmentation and transform the
+Understand how to leverage the power of data science to perform market segmentation and transform the
 marketing department.
-2.Perform exploratory data analysis and visualize customers dataset using this plot histograms and KDE.
-3. Learn how to fill out missing data points or null elements.
-4. Understand the theory and intuition behind K-means clustering algorithms.
-5. Learn how to find the optimal number of clusters using the elbow method.
-6. Apply K-means algorithms in scikit to perform market segmentation.
+Perform exploratory data analysis and visualize customers dataset using this plot histograms and KDE.
+Learn how to fill out missing data points or null elements.
+Understand the theory and intuition behind K-means clustering algorithms.
+Learn how to find the optimal number of clusters using the elbow method.
+Apply K-means algorithms in scikit to perform market segmentation.
 
 
