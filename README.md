@@ -1,4 +1,5 @@
 Marketing is crucial for the growth and sustainability of any business.
+
 Goal:
 The marketing team at bank wanted to launch a targeted ad marketing campaign by dividing their customers
 into at least three distinctive groups.
