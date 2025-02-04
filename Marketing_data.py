@@ -62,7 +62,7 @@ for i in range(len(creditcard_df.columns)):
   plt.subplot(6, 3, i+1)
   sns.distplot(creditcard_df[creditcard_df.columns[i]], kde_kws={"color": "b", "lw": 3,}, hist_kws={"color": "g"})
 plt.tight_layout()
-# plt.show()
+plt.show()
 plt.close()
 
 correlation=creditcard_df.corr()
@@ -73,7 +73,7 @@ sns.heatmap(correlation,annot=True)
 plt.tight_layout()
 plt.yticks(fontsize=5)
 plt.xticks(rotation=45,fontsize=5)
-# plt.show()
+plt.show()
 plt.close()
 
 # 'PURCHASES' have high correlation between one-off purchases, 'installment purchases, purchase transactions, credit limit and payments.
@@ -99,7 +99,7 @@ plt.plot(scores_1,"bx-")
 plt.xlabel("Clusters")
 plt.ylabel("WCSS")
 plt.title("Finding optimal number of clusters")
-# plt.show()
+plt.show()
 plt.close()
 
 # From this we can observe that, 4th cluster seems to be forming the elbow of the curve.
@@ -136,7 +136,7 @@ for i in creditcard_df.columns:
     cluster[i].hist(bins=20)
     plt.title('{}    \nCluster {} '.format(i, j))
 
-  # plt.show()
+  plt.show()
   plt.close()
 
 
